@@ -1,16 +1,28 @@
 <html>
     <body>
-        <!--Change content-->
+        <!--Change Content-->
         <p>Click this button to change the content:</p>
         <button type="button" onclick='document.getElementById("change").innerHTML = "This is the new content"'>Click Me</button>
         <p id="change">This is the old content.</p>
         <br>
-        <!--Change font style-->
+        <!--Change Font Style-->
         <p>Click the button to change font style:</p>
         <button type="button" onclick="document.getElementById('font').style.fontSize='45px'">Click Me</button>
         <p id="font">Change font style</p>
         <br>
-        <!--Change image-->
+        <!--Change Image-->
         <p>Click the button to change the image:</p>
+        <br>
+        <!--Hide Element-->
+        <p>Click the button to Hide</p>
+        <button type="button" onclick="document.getElementById('hide').style.display='none'">Click Me</button>
+        <p id="hide">Buh byeeeee!</p>
+        <br>
+        <!--Show Element-->
+        <p>Click the button to show</p>
+        <button type="button" onclick="document.getElementById('show').style.display='block'">Click Me!</button>
+        <p id="show" style="display:none;">Hello there.</p>
+        <br>
+        
     </body>
 </html>
