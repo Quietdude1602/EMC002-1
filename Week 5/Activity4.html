@@ -11,7 +11,17 @@
             function oddoreven(){
                 let myNum=document.getElementById("num").value
                 //console.log(myNum)
-                if ()
+                if (myNum === ""){
+                    alert("Error");
+                }
+                else {
+                    if(myNum % 2 === 0){
+                        alert('The number ' + myNum + ' is Even');
+                    }
+                    else{
+                        alert('The number ' + myNum + ' is Odd');
+                    }
+                }
             }
         </script>
     </body>
