@@ -12,7 +12,24 @@
         <br>
         <!--Change Image-->
         <p>Click the buttons to change the image:</p>
-        
+        <script>
+            function logo(sw) {
+              var pic;
+              if (sw == 0) {
+                pic = "Pictures/Old_Warhammer_logo.png"
+              } else {
+                pic = "Pictures/New_Warhammer_logo.png"
+              }
+              document.getElementById('myImage').src = pic;
+            }
+            </script>
+            
+            <img id="myImage" img src="Pictures/Old_Warhammer_logo.png" width="230" height="180">
+            
+            <p>
+            <button type="button" onclick="logo(1)">New Logo</button>
+            <button type="button" onclick="logo(0)">Old Logo</button>
+            </p>
         <br>
         <!--Hide Element-->
         <p>Click the button to Hide</p>
