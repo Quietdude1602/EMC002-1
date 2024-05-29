@@ -13,8 +13,9 @@
         <p>BMI Calculator</p>
             <form>
             <label for = "Check"></label>
-            <input type ="text" id="calc"></input>
-            <input type="button" id="see" onclick="BMICalc()" value="submit"></input>
+            <input type ="text" id="userweight"></input>
+            <input type ="text" id="userheight"></input>
+            <input type="button" id="see" onclick="BMICalc(0)" value="submit"></input>
             </form>
         <script>
             function oddoreven(){
@@ -34,7 +35,35 @@
             }
 
             function BMICalc(){
-                let my
+                // user input for HEIGHT and WEIGHT []
+                var weight = document.getElementById('userweight'.value);
+                var height = document.getElementById('userheight'.value);
+                
+                // if WEIGHT and/or HEIGHT is empty, and HEIGHT is less than or equal to zero, it's invalid [similar to numInput]
+                if (weight === '' || height === '' || height <= 0)
+                {
+                    alert("Invalid. Add appropriate values for WEIGHT and HEIGHT (HEIGHT cannot be less than or equal to 0).");
+                }
+
+                // BMI formula, simplified as a variable []
+                var BMI = weight (height * height)
+                
+                // check the BMI status based on user input []
+                var BMIstate;
+                    if (BMI < 18.5)
+                    {
+                        BMIstate = "UNDERWEIGHT"; 
+                    }
+                    else if (BMI < 25)
+                    {
+                        BMIstate = "OVERWEIGHT"
+                    }
+                    else
+                    {
+                        BMIstate = "OBESE"
+                    }
+                
+                    alert("Your BMI status is " + BMIstate + ' .')
             }
         </script>
     </body>
