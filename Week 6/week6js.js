@@ -9,8 +9,10 @@ let checkPassword;
 
 validateButton.addEventListener("click", event =>{
    let username = getUsername.value;
-   
+   let password = getPassword.value;
+
    CheckValidation(username);
+   SeeValidation(password);
 })
 
 function CheckValidation(username) 
@@ -29,4 +31,8 @@ function CheckValidation(username)
     alert("Success");
     return isUsernameValid = true;
     }
+}
+
+function SeeValidation(password){
+    let
 }
