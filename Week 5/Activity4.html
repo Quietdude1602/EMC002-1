@@ -27,6 +27,13 @@
             <button type="button" onclick="BMICalc()">Calculate</button>
             <p id="result"></p>
         </form>
+        <!--Textbox-->
+        <p>Text Display on Alert</p>
+        <form>
+            <label for = "check"></label>
+            <input type="text" id="character"></input>
+            <button type="button" id="see" onclick="textDisplay()">Display</button>
+        </form>
         <script>
             function oddoreven(){
                 let myNum=document.getElementById("num").value
@@ -73,6 +80,16 @@
                 }
 
                 document.getElementById("result").innerHTML = "Your BMI is " + bmi.toFixed(2) + " (" + category + ")";
+            }
+        
+            function textDisplay(){
+                let myText=document.getElementById("character").value
+                if (myText){
+                    alert(myText);
+                }
+                else{
+                    alert("WARNING");
+                }
             }
         </script>
     </body>
