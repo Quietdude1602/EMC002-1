@@ -15,7 +15,7 @@ function CheckValidation(username)
     let usernameSize = username;
     let isUsernameValid = false;
     
-    const CharCount=  /^[A0-Z0-z0]{9,}$/;
+    const CharCount=  /^[A0-Z0-z0]{7,}$/;
     if(!CharCount.test(usernameSize)) 
     { 
     alert("Error, No Special Characters or minimum characters");
