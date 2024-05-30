@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Activity</title>
+    <title>Activity5</title>
 </head>
-
+    <script type="text/javascript" src = "week6js.js"></script>
     <body>
-    <h1 style="text-align: center;">Input Username & Password then submit</h1>
-    <h2 style="text-align: center;">Username must have atleast 6 characters and no special. 
+        <h1 style="text-align: center;">Input Username & Password then submit</h1>
+        <h2 style="text-align: center;">Username must have atleast 6 characters and no special. 
         While password must atleast 8 characters, 1 digit, 1 special character, 
-        and have a combination of upper and lower case.</h2><br>
-    <form id = "Data">
-        <label for = "UN">Username:</label>
-        <input type = "text" id="UN" required /><br>
-        <label for = "UN">Password:</label>
-        <input type = "text" id="PS" required />
-        <input type = "button" value = "Submit" id = "Validation" required />
-        <script type="text/javascript" src = "week6js.js"></script>
-    </form>
+        and have a combination of upper and lower case.</h2>
+        <br>
+        <form id = "Data">
+            <label for = "UN">Username:</label>
+            <input type = "text" id="UN" required /><br>
+            <label for = "UN">Password:</label>
+            <input type = "text" id="PS" required />
+            <input type = "button" value = "Submit" id = "Validation" required onclick="CheckValidation()"/>
+        </form>
     </body>
-    </html>
+</html>

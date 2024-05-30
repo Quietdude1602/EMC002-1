@@ -1,8 +1,11 @@
 let username =[];
+let password =[];
 let forms = document.getElementById("Data");
 let getUsername = document.getElementById("UN");
+let getPassword = document.getElementById("PS");
 let validateButton = document.getElementById("Validation");
 let checkUsername;
+let checkPassword;
 
 validateButton.addEventListener("click", event =>{
    let username = getUsername.value;
