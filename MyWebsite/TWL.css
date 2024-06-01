@@ -1,0 +1,20 @@
+        /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+.navbar {
+        margin-bottom: 50px;
+        border-radius: 0;
+        padding: 20px;
+        }
+         
+          /* Add a background color and some padding to the footer */
+footer {
+        background-color: #1c1c1c;
+        padding: 100px;
+        }
+  
+.header {
+        background-color: rgb(152, 0, 0);
+        padding: 20px;
+        text-align: center;
+        color: goldenrod;
+        font-family: 'Times New Roman', Times, serif;
+        }
