@@ -14,7 +14,46 @@ footer {
 .header {
         background-color: rgb(152, 0, 0);
         padding: 20px;
-        text-align: center;
         color: goldenrod;
         font-family: 'Times New Roman', Times, serif;
         }
+
+.container{
+        display: flex;
+        align-items: right;
+        justify-content: center;
+}
+
+.search{
+        width: max-content;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border-radius: 28px;
+        background: rgba(255,255,255,0.2);
+        }
+
+.search-input{
+        font-size: 14px;
+        font-family: 'Lexend', sans-serif;
+        color: #333333;
+        margin-left: 10px;
+        outline: none;
+        border: none;
+        background: transparent;
+        width: 500px;
+}
+
+.search-input::placeholder{
+    color: rgba(0,0,0,0.25);
+}
+
+.search-bar button {
+        border: 0;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        background: #9a5050;
+        cursor: pointer;
+
+}
