@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Warmaster's Lair</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="TWL.css">
+</head>
+<body style="background-color: rgb(0, 88, 65);">
+    <div class="header">
+      <!--This will be changed later into an image/logo-->
+        <h1>The Warmaster's Lair</h1>
+  </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <a class="navbar-brand" href="TheWarmastersLair copy.php" style="color: goldenrod;">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:goldenrod;">
+                      Warhammer Products
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">New Arrivals</a></li>
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">Pre-Orders</a></li>
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">Warhammer 40K</a></li>
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">Age of Sigmar</a></li>
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">The Old World</a></li>
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">The Horus Heresy</a></li>
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">All Products</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:goldenrod;">
+                      Other Games
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">Warcry</a></li>
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">Underworlds</a></li>
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">Necromunda</a></li>
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">Kill Team</a></li>
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">Blood Bowl</a></li>
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">Battletech</a></li>
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">Conquest</a></li>
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">Infinity</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:goldenrod;">
+                      Brushes & Tools
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">Paint Stripper</a></li>
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">Tools</a></li>
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">Brushes</a></li>
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">All Products</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:goldenrod;">
+                      Paints
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">Vallejo</a></li>
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">Citadel</a></li>
+                      <li><a class="dropdown-item" href="#" style="color:goldenrod;">All Products</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#" style="color: goldenrod;"><span class="bi-person-circle"></span> Account</a></li>
+              <li><a href="CartPage.html" style="color: goldenrod;"><span class="bi-cart"></span> Cart</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <main>
+
+      <div class="container">
+        <!--form action is temporary-->
+        <form action="https://www.google.com/search" method="get" class="search-bar">
+          <div class="search">
+            <button type="submit"><span class="bi-search"></span></button>
+            <input class="search-input" type="search" placeholder="Search">
+          </div>
+        </form>
+      </div>
+
+      <br>
+      <br>
+
+      <h2 style="color: goldenrod; text-align: center; font-family: 'Times New Roman', Times, serif;">NEW ARRIVALS</h2>
+
+      <div class="container">
+
+      <?php
+// database connection code
+$con = mysqli_connect('localhost', 'root', '','online_store');
+
+// database insert SQL code
+$sql = "SELECT * FROM products";
+
+$result = $con->query($sql);
+
+if ($result->num_rows > 0) {
+  // output data of each row
+  echo '<div class="container new-arrivals">';
+  while($row = $result->fetch_assoc()) {
+    
+    echo '<div class="container">';
+    echo '<div class="row">';
+    echo '<div class="col-1">';
+    echo '<div class="card" style="width: 18rem;">';
+    echo '<img src="'.$row["image"]. '" class="card-img-top" alt="Product" />';
+    echo '<div class="card-body">';
+    echo '<h5 class="card-title">'.$row["itemname"].'</h5>';
+    echo '<p class="card-text">'. $row["description"].'</p>';
+    echo '<p class="qty">'. $row["price"].'</p>';
+    echo '<a href="#" class="btn btn-success">'. "Add to Cart" .'</a>';
+    echo '</div>';
+    echo '</div>';
+    echo '</div>';
+    echo '</div>';
+    echo '</div>';
+    echo '<br>';
+
+  }
+  echo '</div>';
+} else {
+  echo "0 results";
+}
+$con->close();
+
+?>
+
+</div>
+
+    </main>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+            <div class="col-2">
+              <h5 style="color:goldenrod;">Warmaster's Lair</h5>
+              <a href="AboutUsPage.html" style="color:goldenrod;">About Us</a>
+            </div>
+
+            <div class="col-2">
+              <h5 style="color:goldenrod;">Customer Service</h5>
+              <a href="#" style="color:goldenrod;">Contact Support</a>
+              <br>
+              <a href="#" style="color:goldenrod;">FAQs</a>
+            </div>
+
+            <div class="col-2">
+              <h5 style="color:goldenrod;">My Account</h5>
+              <a href="LoginPage.html" style="color:goldenrod;">Login</a>
+              <br>
+              <a href="SignUpPage.html" style="color:goldenrod;">Sign Up</a>
+              <br>
+              <a href="#" style="color:goldenrod;">My Wishlist</a>
+            </div>
+
+            <div class="col-2">
+              <h5 style="color:goldenrod;">Contact Us</h5>
+            </div>
+
+            <div class="col-2">
+              <h5 style="color:goldenrod;">Follow Us</h5>
+            </div>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>
